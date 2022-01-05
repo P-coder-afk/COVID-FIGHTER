@@ -2507,7 +2507,7 @@ pointsSound.play();
 
        if (keyDown("right")) 
              { 
-             mario.spt.x=mario.spt.x+430;
+             mario.spt.x=mario.spt.x+30;
             mario.spt.changeAnimation("marioright",mariorightAnimation);  
             }
 
