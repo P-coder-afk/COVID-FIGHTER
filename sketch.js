@@ -2829,22 +2829,6 @@ gameState=BEGIN;
 
   reload=0;
 
-//creating start.
-start1=createSprite(100,400);
-start1.addAnimation("start1-1",start1Animation);
-start1.addAnimation("start1-2",start2Animation);
-start1.addAnimation("start1-3",start3Animation);
-start1.scale=1.8;
-start1.visible=false;
-
-start2=createSprite(100,400);
-start2.addAnimation("start2-1",start4Animation);
-start2.scale=1.8;
-start2.visible=false;
-
-
-
-
 //poster2.
 poster2=createSprite(mario.spt.x,350);
 poster2.addAnimation("poster2",gameOverAnimation);
@@ -2917,6 +2901,20 @@ car3.scale=0.7;
   brige.addAnimation("brige",brigeAnimation);
   brige.scale=1;
   brige.setCollider("circle",0,50,200);
+
+  //creating start.
+start1=createSprite(100,400);
+start1.addAnimation("start1-1",start1Animation);
+start1.addAnimation("start1-2",start2Animation);
+start1.addAnimation("start1-3",start3Animation);
+start1.scale=1.8;
+start1.visible=false;
+
+start2=createSprite(100,400);
+start2.addAnimation("start2-1",start4Animation);
+start2.scale=1.8;
+start2.visible=false;
+
 
  
 //group of covid warriors.
